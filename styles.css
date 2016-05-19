@@ -7,6 +7,7 @@
   text-align: center;
   max-width: 1280px;
   min-width: 320px;
+  margin: auto;
   padding: 10px;
 }
 
@@ -16,7 +17,17 @@
 }
 
 #generate {
-  padding: 6px;
+  padding: 10px;
   font-size: 1.5em;
-  border-radius: 3px;
+  border-radius: 5px;
+  background-color: rgb(211, 17, 69);
+  border: 3px solid rgb(242, 91, 34);
+  box-shadow: 0 1px 2px 0 rgb(100, 100, 100);
+  color: white;
+  cursor: pointer;
+}
+
+#links {
+  padding: 10px 0;
+  font-size: 1.2em;
 }
