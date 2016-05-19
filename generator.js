@@ -10,9 +10,9 @@
 
   // Get a random lyric from the data
   function getRandomLyric(field) {
-    options = lyrics[field];
-    length = options.length;
-    index = randomInteger(0, length);
+    var options = lyrics[field];
+    var length = options.length;
+    var index = randomInteger(0, length);
     return options[index];
   }
 
@@ -46,6 +46,7 @@
     })
     .fail(function(error) {
       console.error(error);
+      $('#lyrics').text(error);
     });
 
 })(window, jQuery);
